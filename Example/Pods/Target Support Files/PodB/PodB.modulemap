@@ -1,0 +1,6 @@
+framework module PodB {
+  umbrella header "PodB-umbrella.h"
+
+  export *
+  module * { export * }
+}

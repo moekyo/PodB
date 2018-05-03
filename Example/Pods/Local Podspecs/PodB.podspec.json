@@ -1,0 +1,27 @@
+{
+  "name": "PodB",
+  "version": "0.1.0",
+  "summary": "PodB.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/moekyo/PodB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "moekyo": "xinwc@edaotech.com"
+  },
+  "source": {
+    "git": "https://github.com/moekyo/PodB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodB/Classes/**/*",
+  "dependencies": {
+    "PodA": [
+
+    ]
+  }
+}

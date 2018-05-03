@@ -1,0 +1,6 @@
+framework module PodA {
+  umbrella header "PodA-umbrella.h"
+
+  export *
+  module * { export * }
+}

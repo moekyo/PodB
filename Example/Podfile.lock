@@ -1,0 +1,23 @@
+PODS:
+  - PodA (0.1.1)
+  - PodB (0.1.0):
+    - PodA
+
+DEPENDENCIES:
+  - PodB (from `../`)
+
+SPEC REPOS:
+  https://github.com/moekyo/myPodspecs.git:
+    - PodA
+
+EXTERNAL SOURCES:
+  PodB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodA: f3e7e503c3d02a334f4415b7a63cf6207ac5095e
+  PodB: 839b4b9eff09318a44c4a81cd72da5660211cae4
+
+PODFILE CHECKSUM: 5ff9f4b07f4f062718f0d376bfe3d35a1f09a376
+
+COCOAPODS: 1.5.0
