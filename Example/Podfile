@@ -1,5 +1,6 @@
 use_frameworks!
 
+source 'https://github.com/moekyo/myPodspecs.git'
 target 'PodB_Example' do
   pod 'PodB', :path => '../'
 
