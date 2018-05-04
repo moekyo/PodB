@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PodBTool.h"
 
 FOUNDATION_EXPORT double PodBVersionNumber;
 FOUNDATION_EXPORT const unsigned char PodBVersionString[];

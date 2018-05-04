@@ -12,4 +12,8 @@
 + (NSString *)getDeviceName;
 
 
++ (NSString *)getOSName;
+
++ (NSString *)getSystemVersion;
+
 @end
