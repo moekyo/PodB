@@ -15,4 +15,8 @@
    return [PodATool getDeviceName];
 }
 
++ (NSString *)getDeviceOS {
+    return [PodATool getOSName];
+}
+
 @end
