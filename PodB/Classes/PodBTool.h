@@ -9,4 +9,7 @@
 
 @interface PodBTool : NSObject
 
++ (NSString *)getDeviceName;
+
+
 @end

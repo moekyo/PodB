@@ -6,7 +6,13 @@
 //
 
 #import "PodBTool.h"
+#import "PodATool.h"
 
 @implementation PodBTool
+
+
++ (NSString *)getDeviceName {
+   return [PodATool getDeviceName];
+}
 
 @end
